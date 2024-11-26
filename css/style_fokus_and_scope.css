@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #e4e4e4;
+  }
+
+
+
+  .fokus_and_scope {
+    width: 830px;
+    background-color: white;
+  }
+
+  .judul {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .deskripsi_scope {
+    margin-right: 30px;
+    text-align: justify;
+  }
+
+  .desk {
+    margin-left: 30px;
+  }
+
+  ol {
+    margin-left: 50px;
+  }
+
+  ol li {
+    text-align: justify;
+  }

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #e4e4e4;
+  }
+
+  .tabel_editorial {
+    width: 820;
+    background-color: white;
+  }
+
+  .judul {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  table {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  .head {
+    text-align: center;
+  }
+
+  .number {
+    text-align: center;
+    border: 1px solid black;
+    width: 40px;
+  }
+
+  .Instansi {
+    padding-left: 5px;
+    border: 1px solid black;
+    width: 160px;
+  }
+
+  .jabatan {
+    padding-left: 5px;
+    border: 1px solid black;
+    width: 250px;
+  }
+
+  .name {
+    padding-left: 5px;
+    border: 1px solid black;
+    width: 320px;
+  }
+

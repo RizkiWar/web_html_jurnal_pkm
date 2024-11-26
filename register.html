@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PKM PGSD UNSAM</title>
+  <link rel="stylesheet" href="css/style_editorial_team.css">
+  <link rel="stylesheet" href="css/style_register.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="Assets/logo.png" width="60">
+      <span>PKM PGSD UNSAM</span>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li class="nav-link">
+          <a href="index.html">HOME</a>
+          <div class="animation"></div>
+        </li>
+        <li class="nav-link item">
+          <a href="#" onclick="toggleDropdown(event)">ABOUT <i class="fas fa-caret-down"></i></a>
+          <div class="animation"></div>
+          <ul class="drop-down">
+            <li>ABOUT THE JOURNAL</li>
+            <li>SUBMISSIONS</li>
+            <li>EDITORIAL TEAM</li>
+            <li>PRIVACY STATEMENT</li>
+            <li>CONTACT</li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <a href="#">CURRENT</a>
+          <div class="animation"></div>
+        </li>
+        <li class="nav-link">
+          <a href="#">ARCHIVES</a>
+          <div class="animation"></div>
+        </li>
+        <li class="nav-link">
+          <a href="#">ANNOUNCEMENT</a>
+          <div class="animation"></div>
+        </li>
+        <li class="nav-link">
+          <a href="register.html">REGISTER</a>
+          <div class="animation"></div>
+        </li>
+        <li class="nav-link">
+          <a href="login.html">LOGIN</a>
+          <div class="animation"></div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main style="background:url(Assets/gambar3.png); background-size: 100% 100%"></main>
+    <section class="content">
+      <div class="form-register">
+        <nav class="register-form">
+            <a href="index.php">Home</a> / 
+            <span>Register</span>
+        </nav>
+        <p class="judul-register">Register</p>
+        <p class="profile">Profile</p>
+        <form action="submit.php" method="POST">
+            <label for="name">Given Name<i style="color: red;">*</i></label><br>
+            <input type="text" id="name" name="name"><br><br>
+    
+            <label for="familyName">Family Name<i style="color: red;">*</i></label><br>
+            <input type="text" id="family_name" name="family_name"><br><br>
+
+            <label for="affiliation">Affiliation<i style="color: red;">*</i></label><br>
+            <input type="text" id="affiliation" name="affiliation"><br><br>
+    
+            <label for="country">Country<i style="color: red;">*</i></label><br>
+            <input type="text" id="country" name="country"><br><br>
+        </form>
+        <p class="login">Login</p>
+        <form action="submit.php" method="POST">
+            <label for="email">Email<i style="color: red;">*</i></label><br>
+            <input type="email" id="email" name="email"><br><br>
+    
+            <label for="nameRepeat">Username<i style="color: red;">*</i></label><br>
+            <input type="text" id="username" name="username"><br><br>
+
+            <label for="password">Password<i style="color: red;">*</i></label><br>
+            <input type="password" id="password" name="password"><br><br>
+    
+            <label for="passwordRepeat">Repeat Password<i style="color: red;">*</i></label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label class="checkbox-container">
+                <input type="checkbox" name="agree" value="yes">
+                <span class="checkbox-text">Yes, I agree to have my data collected and stored according to the <a href="#" style="color: green;">privacy statement</a></span>
+              </label>
+              <br>
+              <label class="checkbox-container">
+                <input type="checkbox" name="subscribe" value="newsletter">
+                <span class="checkbox-text">Yes, I would like to be notified of new publications and announcements</span>
+              </label><br>
+    
+            <button type="submit">Register</button>
+            <a href="login.html" class="button-login">Login</a>
+        </form>
+    </div>
+        <hr>
+        <div class="container-information">
+            <div class="container-accreditation">
+                <div class="accreditation-info">
+                    <p>ACCREDITATION</P>
+                </div>
+            </div>
+            <div class="side-navigation">
+                <li class="button">
+                    <a href="index.html"><i class="fa-solid fa-house"></i>  Home</a>
+                </li>
+                <li class="button">
+                    <a href="focus_and_scope.html"><i class="fa-regular fa-circle"></i>  Focus and Scope</a>
+                </li>
+                <li class="button">
+                    <a href="editorial_team.html"><i class="fa-regular fa-circle-user"></i>  Editorial Team</a>
+                </li>
+                <li class="button">
+                    
+                    <a href="#"><i class="fa-solid fa-users"></i> Reviewer</a>
+                </li>
+                <li class="button">
+                    <a href="peer_review_proses.html"><i class="fa-regular fa-square-check"></i>  Peer Review Process</a>
+                </li>
+                <li class="button">
+                    <a href="#"><i class="fa-solid fa-pen-to-square"></i>  Author Guidelines</a>
+                </li>
+                <li class="button">
+                    <a href="#"><i class="fa-regular fa-address-book"></i>  Contact Us</a>
+                </li>
+                <li class="button">
+                    <a href="#"><i class="fa-solid fa-unlock"></i>  Open Access Policy</a>
+                </li>
+                <li class="button">
+                    <a href="#"><i class="fa-regular fa-copyright"></i>  Copyright Notice</a>
+                </li>
+                <li class="button">
+                    <a href="#"><i class="fa-regular fa-credit-card"></i> Author Fees</a>
+                </li>
+            </div>
+            <div class="container-accreditation">
+                <div class="template">
+                    <p>TEMPLATE</P>
+                    <div style="text-align: center; margin-top: 30px;">
+                        <a href="https://docs.google.com/document/d/1gxcgCWAo5oaJb58JBrw1-ilZSnCI7kQD/edit?usp=sharing&ouid=107496874309621051817&rtpof=true&sd=true" target="_blank">
+                        <img src="Assets/doc_template.png" alt="Klik untuk membuka dokumen" style="width: 200px; cursor: pointer;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-submission">
+                <div class="submission">
+                    <p>MAKE A SUBMISSION</P>
+                </div>
+            </div>
+            <div class="container-accreditation">
+                <div class="template">
+                    <p>IN COLLABORATION WITH</P>
+                    <img class="logo-himpunan" src="Assets/Logo_Himpunan_Dosen_PGSD.png" alt="logo himpunan dosen PGSD">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <body>
+      <footer>
+          <p>For Enquiry Regarding Admission <a href="#">Apply Online</a></p>
+          <p>&copy; 2024 Universitas Samudra | Privacy Policy</p>
+        </footer>
+  </body>
+  <script src="script.js"></script>
+</body>
+</html>
